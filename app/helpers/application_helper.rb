@@ -22,4 +22,8 @@ module ApplicationHelper
 
   end	
 
+  def copyright_generator
+    DevcampViewTool::Renderer.copyright 'Kenneth Woanyah', 'All rights reserved'
+  end  
+
 end

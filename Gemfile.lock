@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/KennyKeyz/devcamp_view_tool
+  revision: 26f34760ad745200aa9e692724b058bf1573e549
+  specs:
+    devcamp_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -194,6 +200,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   coffee-script-source (= 1.8.0)
+  devcamp_view_tool!
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
