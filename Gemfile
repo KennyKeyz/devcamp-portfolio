@@ -64,3 +64,5 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'devcamp_view_tool', git: 'https://github.com/KennyKeyz/devcamp_view_tool'
 
+
+gem 'petergate', '~> 1.7'
