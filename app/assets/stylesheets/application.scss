@@ -180,10 +180,40 @@ body {
  color: black;
  background: white;
  text-align:left;
+  -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
 
 
  }
 
 .auth-links a {
    color: black;
+}
+
+
+.register-text {
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.login > .card{
+  
+  width: 30rem;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+
 }
