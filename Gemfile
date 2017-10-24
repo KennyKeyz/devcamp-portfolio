@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'coffee-script-source', '1.8.0'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -54,15 +54,27 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
+
+
 gem 'friendly_id', '~> 5.1.0'
 
 gem 'devise', '~> 4.3'
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
-gem 'bootstrap-sass', '~> 3.3.6'
+
 
 gem 'devcamp_view_tool', git: 'https://github.com/KennyKeyz/devcamp_view_tool'
 
 
 gem 'petergate', '~> 1.7'
+
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
+gem 'coffee-script-source', '1.8.0'
+
+gem 'execjs'
+
+gem 'therubyracer', '~> 0.12.3'
