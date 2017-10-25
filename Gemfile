@@ -78,3 +78,7 @@ gem 'coffee-script-source', '1.8.0'
 gem 'execjs'
 
 gem 'therubyracer', '~> 0.12.3'
+
+gem "font-awesome-rails"
+
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
