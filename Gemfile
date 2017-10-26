@@ -82,3 +82,6 @@ gem 'therubyracer', '~> 0.12.3'
 gem "font-awesome-rails"
 
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
+
+
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
