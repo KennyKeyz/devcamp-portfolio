@@ -95,4 +95,6 @@ gem 'carrierwave-aws', '~> 1.3'
 
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 
-gem 'fog'
+
+
+gem 'cocoon', '~> 1.2', '>= 1.2.11'
