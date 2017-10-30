@@ -48,6 +48,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'pry-byebug'
+  
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -92,4 +93,6 @@ gem 'mini_magick', '~> 4.8'
 
 gem 'carrierwave-aws', '~> 1.3'
 
-gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
+
+gem 'fog'
