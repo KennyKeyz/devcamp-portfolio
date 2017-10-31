@@ -18,3 +18,5 @@ Rails.application.config.assets.precompile += %w( application.scss )
 Rails.application.config.assets.precompile += %w( blogs.scss )
 
 Rails.application.config.assets.precompile += %w( portfolios.scss )
+
+
