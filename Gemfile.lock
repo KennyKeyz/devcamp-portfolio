@@ -79,6 +79,9 @@ GEM
       aws-sdk-s3 (~> 1.0)
       carrierwave (>= 0.7, < 2.0)
     cocoon (1.2.11)
+    code (0.9.2)
+      coderay (~> 1.1)
+      method_source (~> 0.9)
     coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -215,6 +218,7 @@ GEM
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    redcarpet (3.4.0)
     redis (4.0.1)
     ref (2.0.0)
     responders (2.4.0)
@@ -291,6 +295,8 @@ DEPENDENCIES
   carrierwave (~> 1.2, >= 1.2.1)
   carrierwave-aws (~> 1.3)
   cocoon (~> 1.2, >= 1.2.11)
+  code
+  coderay (~> 1.1, >= 1.1.2)
   coffee-rails (~> 4.2)
   coffee-script-source (= 1.8.0)
   devcamp_view_tool!
@@ -311,6 +317,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.7)
   rails (~> 5.1.4)
+  redcarpet (~> 3.4)
   redis (~> 4.0, >= 4.0.1)
   sass-rails (~> 5.0)
   spring
