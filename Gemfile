@@ -112,3 +112,5 @@ gem 'redcarpet', '~> 3.4'
 gem 'code'
 
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+
+ruby "2.4.2"
